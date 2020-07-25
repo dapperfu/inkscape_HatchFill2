@@ -4,16 +4,40 @@ Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-ma
 
 # Usage
 
+## Generic
+
+1. Download https://github.com/dapperfu/inkscape_HatchFill2/archive/master.zip
+2. Extract to Directory in ```Edit > Preferences > System: User``` (Shift-Ctrl-P)
+  ![](.img/extension_dir.png)
+
+### Linux
+
     mkdir -p ~/.config/inkscape/extensions/
-    git clone https://github.com/dapperfu/inkscape_HatchFill2.git ~/.config/inkscape/extensions/HatchFill2
+    git clone https://github.com/dapperfu/inkscape_HatchFill2.git ~/.config/inkscape/extensions/inkscape_HatchFill2
     
 - Launch Inkscape v1.0>
 - Extensions > gh:dapperfu > Hatch Fill 2
-   - Alt-N + D + H
+   - Alt-n + d + h
 
-# Debugging
+### MacOS
 
+**TODO**
 
+### Windows
+
+**TODO**
+
+# Debugging / Development
+
+Uncomment ```inkscape_run_debug()``` at the end of ```hatchfill2.py```.
+
+1. Open "Hatch Fill 2" in Inkscape & Run the extension.
+2. A ```debug``` directory will be created in the Hatch Fill 2 extension directory.
+   1. ```hatchfill2.debug``` - Summary of how the extension was called
+   2. ```hatchfill2.sh``` - Shell script to programmatically run the extension.
+   3. ```hatchfill2_run.py``` - Python script to programmatically run the extension.
+     (Useful for debugging in Spyder3/VSCode)
+   4. ```input_file.svg``` - Copy of the input SVG file.
 
 # Issues 
 

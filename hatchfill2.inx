@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-  <_name>_Hatch fill2</_name>
-  <id>command.dapperfu.hatchfill2</id>
+  <_name>_Hatch Fill 2</_name>
+  <id>command.dapperfu.inkscape_hatchfill2</id>
   <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
   <dependency type="executable" location="inx">hatchfill2.py</dependency>
   <param name="tab" type="notebook">
@@ -19,7 +19,7 @@ Hatched figures will be grouped with their fills.
       <param name="holdBackHatchFromEdges" type="boolean" _gui-text="Inset fill from edges?">true</param>
       <param name="holdBackSteps" type="float" min="0.1" max="10.0" _gui-text="Inset distance (mm) (default: 1)">1.0</param>
       <param name="tolerance" type="float" min="0.1" max="100" _gui-text="Tolerance (default: 3.0)">3.0</param>
-      <param name="footer" type="description" xml:space="preserve">(v3.0.0, July, 2020)</param>
+      <param name="footer" type="description" xml:space="preserve">(v0.9.0b, July, 2020)</param>
     </page>
     <page name="info" _gui-text="More info...">
       <_param name="aboutpage" type="description" xml:space="preserve">Hatch spacing is the distance between hatch lines, measured in units of screen pixels (px). Angles are in degrees from horizontal; for example 90 is vertical.
