@@ -8,8 +8,11 @@ Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-ma
     git clone https://github.com/dapperfu/inkscape_HatchFill2.git ~/.config/inkscape/extensions/HatchFill2
     
 - Launch Inkscape v1.0>
-- Extensions > EggBotForked > Hatch Fill 2
-   - Alt-N + E + H
+- Extensions > gh:dapperfu > Hatch Fill 2
+   - Alt-N + D + H
+
+# Debugging
+
 
 
 # Issues 
