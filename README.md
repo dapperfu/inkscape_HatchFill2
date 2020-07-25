@@ -1,5 +1,6 @@
-# inkscape_HatchFill
-Inkscape >v1.0 Hatch Fill.
+# Inkscape HatchFill2
+
+Inkscape HatchFill2, Forked from EggBot's HatchFill & made a "stand-alone" extension (with Inkscape v1.0's ```rel="inx"```)
 
 # Usage
 
