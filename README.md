@@ -1,8 +1,8 @@
 # Inkscape HatchFill2
 
-Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-mad/EggBot/) & made a "stand-alone" extension (with Inkscape v1.0's ```rel="inx"```)
+Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-mad/EggBot/) & made a "stand-alone" extension (with Inkscape v1.0's ```reldir="inx"```)
 
-# Usage
+# Installation:
 
 ## Generic
 
@@ -15,10 +15,6 @@ Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-ma
     mkdir -p ~/.config/inkscape/extensions/
     git clone https://github.com/dapperfu/inkscape_HatchFill2.git ~/.config/inkscape/extensions/inkscape_HatchFill2
     
-- Launch Inkscape v1.0>
-- Extensions > gh:dapperfu > Hatch Fill 2
-   - Alt-n + d + h
-
 ### MacOS
 
 **TODO**
@@ -26,6 +22,17 @@ Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-ma
 ### Windows
 
 **TODO**
+
+## Usage:
+
+- Launch Inkscape v1.0>
+- Extensions > gh:dapperfu > Hatch Fill 2
+   - Alt-n + d + h
+
+# Example
+
+- Open included ```100x100.svg``` file.
+
 
 # Debugging / Development
 
