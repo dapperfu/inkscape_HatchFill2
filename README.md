@@ -1,6 +1,8 @@
 # Inkscape HatchFill2
 
-Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-mad/EggBot/) & made a "stand-alone" extension (with Inkscape v1.0's ```reldir="inx"```)
+Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-mad/EggBot/) & made a "stand-alone" extension for use with Inkscape v1.0+.
+
+Spacing is either in mm or px depending on the units of the object in Inkscape.
 
 # Example
 
