@@ -594,7 +594,10 @@ def inverseTransform(tran):
         [-tran.b / D, tran.a / D, (tran.b * tran.e - tran.a * tran.f) / D],
     ]
 
+
 import inkex.bezier
+
+
 def subdivideCubicPath(sp, flat, i=1):
     """
     Break up a bezier curve into smaller curves, each of which
@@ -765,7 +768,9 @@ class HatchFill2(inkex.Effect):
                     sx = self.docWidth / float(vinfo[2])
                     sy = self.docHeight / float(vinfo[3])
                     # self.docTransform = simpletransform.parseTransform('scale({0:f},{1:f})'.format(sx, sy))
-                    self.docTransform = simpletransform.Transform(f"scale({sx}, {sy})"      ).matrix
+                    self.docTransform = simpletransform.Transform(
+                        f"scale({sx}, {sy})"
+                    ).matrix
 
     def addPathVertices(self, path, node=None, transform=None):
 
@@ -1585,7 +1590,9 @@ class HatchFill2(inkex.Effect):
                     # Doesn't need to select which end is closest, as that will happen below, with n_ref_end_index.
                     # When we have gone thru this whole range, we will be completely done.
                     # We only get here again, after all _connected_ segments have been "drawn".
-                    if not abs_line_segments[ref_count][2]:  # Test whether this segment has been drawn
+                    if not abs_line_segments[ref_count][
+                        2
+                    ]:  # Test whether this segment has been drawn
                         # Has not been drawn yet
 
                         # Before we do any irrevocable changes to path, let's see if we are going to be able to append any segments.
@@ -2247,6 +2254,7 @@ def inkscape_run_debug():
     import os
     import datetime
     import shutil
+
     # If we aren't calling this from our own script.
     if os.environ.get("DEBUG_RECURSION", "0") == "1":
         return
