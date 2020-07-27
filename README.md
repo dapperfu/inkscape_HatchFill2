@@ -2,6 +2,16 @@
 
 Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-mad/EggBot/) & made a "stand-alone" extension (with Inkscape v1.0's ```reldir="inx"```)
 
+# Example
+
+From included ```100x100.svg``` file:
+
+![](.img/hatchfill2_config.png)
+![](.img/hatchfill2_result.png)
+
+![](.img/hatchfill2_example2.png)
+![](.img/hatchfill2_example3.png)
+
 # Installation:
 
 ## Generic
@@ -28,11 +38,6 @@ Inkscape HatchFill2, Forked from [EggBot's HatchFill](https://github.com/evil-ma
 - Launch Inkscape v1.0>
 - Extensions > gh:dapperfu > Hatch Fill 2
    - Alt-n + d + h
-
-# Example
-
-- Open included ```100x100.svg``` file.
-
 
 # Debugging / Development
 
