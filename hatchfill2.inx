@@ -2,7 +2,6 @@
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
   <_name>_Hatch Fill 2</_name>
   <id>command.dapperfu.inkscape_hatchfill2</id>
-  <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
   <dependency type="executable" location="inx">hatchfill2.py</dependency>
   <param name="tab" type="notebook">
     <page name="splash" _gui-text="Hatch Fill">
@@ -44,6 +43,6 @@ The Tolerance parameter affects how precisely the hatches try to fill the input 
     </effects-menu>
   </effect>
   <script>
-    <command reldir="inx" interpreter="python">hatchfill2.py</command>
+    <command interpreter="python" location="inx">hatchfill2.py</command>
   </script>
 </inkscape-extension>

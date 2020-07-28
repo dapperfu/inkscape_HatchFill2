@@ -76,14 +76,15 @@
 # Modified hatch fill to create hatches as a relevant object it found on the SVG tree
 # This prevents extremely complex plots from generating glitches
 # Modifications are limited to recursivelyTraverseSvg and effect methods
+#
 # Forked July 2020
 # Updated for Inkscape v1.0
 # Updated code to remove deprecation warnings
 # Added script to format xml & Python.
 # Not tested on Python 2.
 # Current software version:
-# (v0.9.0b, July 2020)
-# forked from Evil-Mad EggBot (v2.3.2, September 29, 2019)
+# (v0.9.0b, July 2020) # forked from Evil-Mad EggBot (v2.3.2, September 29, 2019)
+#
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 2 of the License, or
